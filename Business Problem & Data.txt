@@ -1,0 +1,24 @@
+                                                      Applied Data Science Capstone Project
+
+Introduction:
+
+New York City is one of the most diverse cities in the world, home to millions of immigrants from all around the world. It is one of the world's most populous cities, and is America's largest city, home to about 8.4 million people. The surrounding NYC Metropolitan Area is home to over 23 million people, and continues to grow to this day. 
+
+With such a diverse and populous citizen base, New York City is home to hundreds of high schools for the thousands of students who study in this metropolitan area. Schools are incredibly important to advance the education of its students, to prepare them for college education, the work force, and basic life skills. All in all, good schools produce good students, who will likely go on to be successful in their endeavors. Nowadays, one of the key features that highlight a school's level is the average SAT score of its students. The SAT is a standardized test which is required in college admissions. Higher scores on the exam scored out of 2400 represent students who likely study more than students with lower scores. Therefore, average SAT scores show a good metric of how to rank NYC high schools. The higher the average SAT score of the school, the better it likely is due to its smarter student body. 
+
+Problem: 
+
+Suppose a family is moving to New York City and they have children they need to put through school. Families with children likely care about the child's education and want to do everything they can to ensure that their child goes to a good school that will put them in a position to succeed later on life. Therefore, we will be trying to answer the following questions:
+
+Which borough has the highest mean average SAT score?
+Which borough(s) has the most schools that have average SAT scores higher than the national average?
+What venues surrounding these venues seem to be recurring, and is there a pattern to these venues? 
+
+Data:
+
+To effectively carry out this project, we need to obtain information about the different high schools in New York City, their location, borough, and average SAT scores. We also need to obtain the neighboring venues to each of these schools. 
+
+To satisfy the requirements of the first dataset, I used a dataset found on kaggle.com, a renowned data science website that contains a multitude of free data sets. The exact URL to this dataset is: https://www.kaggle.com/new-york-city/new-york-city-sat-results. This dataset contains information of over 450 NYC high schools, their names, borough, latitude/longitude values, average SAT scores by section (math, reading, writing), etc. With this, we can explore each of the schools and where the better schools are located in NYC by exploring their locations and their average SAT scores.
+
+To satisfy the second requirement of obtaining venues, I used the Foursquare API. By calling the Foursquare API, I was able to retrieve a number of venues surrounding each school and from there explore venues around certain schools. 
+
